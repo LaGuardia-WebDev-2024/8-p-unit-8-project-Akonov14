@@ -16,16 +16,32 @@ Select ONE Additional
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Unit 8 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      body {
+        cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🦈</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      }
+    
+      h1, h2 {
+        font-family: slackey
+      }
+    
+    </style>
   </head>
 
   <body>
+    
     <h1>The Ocean</h1>
+    <h2>
+      Click on the fish to <em>"eat"</em> them!
+    </h2>
     <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
   </body>
 </html>
